@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper__form">
+            <h1 class="title">JavaScript Test</h1>
+            <form action="#" class="form" method="post">
+                <div class="form__elementBox">
+                    <input type="text" placeholder="ПІБ" class="nameUser" name="name">
+                    <input type="hidden" class="markSend" name="markSend">
+                    <input type="button" value="Старт" id="start">
+                </div>
+                <div class="form__istruct">
+                    <p class="form__istructText">В тесті 10 питань. Час проходження тесту 10 хвилин. <br>Відлік часу почнется після натискання на кнопку "Старт". <br>Перед тим, як натиснути на кнопку, вкажіть своє призвіще та ім'я. </p>
+                    <div class="form__istructImg">
+                        <img src="./img/javascript-736401_640.png" alt="image" title="image">
+                    </div>
+                </div>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Що таке ідентифікатор JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item1" value="true"> A. Це ім'я змінної чи функції.</li>
+                        <li><input type="radio" name="list__item1"> B. Це тип даних - Об'єкт</li>
+                        <li><input type="radio" name="list__item1"> C. Цей тип даних - Функція</li>
+                        <li><input type="radio" name="list__item1"> D. Це тип даних - Масив</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Що означає приставка Java у імені JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item2"> A. Мова JavaScript і Java це те саме.</li>
+                        <li><input type="radio" name="list__item2"> B. Ця приставка вказує, що ця мова є полегшеною версією мови Java.</li>
+                        <li><input type="radio" name="list__item2" value="true"> C. Це тільки назва, яка не пов'язує цю мову з мовою Java.</li>
+                        <li><input type="radio" name="list__item2"> D. Те, що ці дві мови програмування випустила та сама компанія.</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Які елементарні типи є у JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="checkbox" name="list__item3" value="true"> A. Number, String, Boolean</li>
+                        <li><input type="checkbox" name="list__item3"> B. Object, Boolean, String</li>
+                        <li><input type="checkbox" name="list__item3"> C. Array, null, String</li>
+                        <li><input type="checkbox" name="list__item3" value="true"> D. undefined, null, Number</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Назвіть три функції для роботи з діалоговими вікнами?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item4"> A. alert(); Console.WriteLine(); print();</li>
+                        <li><input type="radio" name="list__item4"> B. alert(); prompt(); print();</li>
+                        <li><input type="radio" name="list__item4" value="true"> C. alert(); prompt(); confirm();</li>
+                        <li><input type="radio" name="list__item4"> D. select(); prompt(); print();</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Які основні функції мови програмування JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item5" value="true"> A. Надання динаміки веб-сторінкам</li>
+                        <li><input type="radio" name="list__item5"> B. Для написання кінцевого продукту під ОС Windows</li>
+                        <li><input type="radio" name="list__item5"> C. Для розвантаження веб-браузера клієнта</li>
+                        <li><input type="radio" name="list__item5"> D. Найчастіше для розвантаження сервера на якому знаходиться веб-сайт</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Мова JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item6" value="true"> A. Прототипно-орієнтована скриптова мова програмування.</li>
+                        <li><input type="radio" name="list__item6"> B. Подієво-орієнтована мова програмування.</li>
+                        <li><input type="radio" name="list__item6"> C. Процедурна мова програмування.</li>
+                        <li><input type="radio" name="list__item6"> D.Аспектно-орієнтована мова програмування</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Хто розробив мову програмування JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item7" value="true"> A. Брендан Айк</li>
+                        <li><input type="radio" name="list__item7"> B. Андерс Хейлсберг</li>
+                        <li><input type="radio" name="list__item7"> C. Джозеф Джорден</li>
+                        <li><input type="radio" name="list__item7"> D. Марк Цукерберг</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Як спочатку називалася мова програмування JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item8"> A. AOL</li>
+                        <li><input type="radio" name="list__item8" value="true"> B. Netscape</li>
+                        <li><input type="radio" name="list__item8"> C. JavaLite</li>
+                        <li><input type="radio" name="list__item8"> D. Mocha</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question"> Як офіційно називається мова програмування JavaScript?</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item9"> A. ActionScript</li>
+                        <li><input type="radio" name="list__item9" value="true"> B. ECMAScript</li>
+                        <li><input type="radio" name="list__item9"> C. Java</li>
+                        <li><input type="radio" name="list__item9"> D.Script</li>
+                    </ul>
+                </fieldset>
+                <fieldset class="form__fieldset">
+                    <label for=""><span class="number"></span>&nbsp<span class="question">Змінна типу undefined у JavaScript, це змінна яка зберігає -</span></label>
+                    <ul class="list">
+                        <li><input type="radio" name="list__item10" value="true"> A. не визначене значення</li>
+                        <li><input type="radio" name="list__item10"> B. значення типу null</li>
+                        <li><input type="radio" name="list__item10"> C. числове значення</li>
+                        <li><input type="radio" name="list__item10"> D.значення типу Object</li>
+                    </ul>
+                </fieldset>
+                <div class="timer">10:00</div>
+                <div class="form__elementBox">
+                    <div class="markBlock">ОЦІНКА:&nbsp</div>
+                    <input type="submit" value="Стоп" id="result">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
